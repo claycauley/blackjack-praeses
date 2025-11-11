@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Blackjack</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/styles/css/main.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <main>
+            <header>
+                <div class="currentChipTotal">
+                    <span class="chipIcon"></span>
+                    <p>9,000</p>
+                </div>
+                <div class="buttonContainer">
+                    <button class="primaryButton smallButton playerStats">
+                        <span class="statsIcon"></span>
+                        <p>Stats</p>
+                    </button>
+                    <button class="tertiaryButton smallButton gameRules">
+                        <span class="rulesIcon"></span>
+                        <p>Rules</p>
+                    </button>
+                </div>
+            </header>
+            <section class="container dealerArea playField">
+                <div class="handDetails">
+                    <div class="sectionLabel">
+                        <p>Dealer's Hand</p>
+                    </div>
+                    <div class="sectionCardTotal">
+                        <span class="cardIcon"></span>
+                        <p>6</p>
+                    </div>
+                </div>
+                <div class="cardContainer">
+                    <div class="card">
+                        <div class="playingCard blankCard"></div>
+                    </div>
+                    <div class="card">
+                        <div class="playingCard inPlay">
+                            <p>6</p>
+                            <span class="spadeIcon"></span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="container playerArea playField">
+                <div class="cardContainer">
+                    <div class="card">
+                        <div class="playingCard inPlay">
+                            <p>10</p>
+                            <span class="clubIcon"></span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="playingCard inPlay">
+                            <p>8</p>
+                            <span class="heartIcon"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="handDetails">
+                    <div class="sectionLabel">
+                        <p>Your Hand</p>
+                    </div>
+                    <div class="sectionCardTotal">
+                        <span class="cardIcon"></span>
+                        <p>18</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <div class="container playerActions">
+            <div class="buttonContainer">
+                <button class="primaryButton">Hit</button>
+                <button class="secondaryButton">Stand</button>
+                <button class="tertiaryButton">Double Down</button>
+            </div>
+            <div class="quickTips">
+                <div class="quickTipsHeader">
+                    <span class="sparkleIcon"></span>
+                    <p class="smallHeader">Quick Tip</p>
+                </div>
+                <p>The dealer is required to <strong>hit</strong> on any total of 16 or less and must <strong>stand</strong> once they reach 17 or higher.</p>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,54 @@
+span {
+    &::before {
+        font-family: 'IconFont';
+    }
+}
+
+.cardIcon {
+    &::before {
+        content: '\e4df';
+    }
+}
+
+.chipIcon {
+    &::before {
+        content: '\f51e';
+    }
+}
+
+.clubIcon {
+    &::before {
+        content: '\f327';
+    }
+}
+
+.heartIcon {
+    &::before {
+        color: var(--accentColor);
+        content: '\f004';
+    }
+}
+
+.rulesIcon {
+    &::before {
+        content: '\f02e';
+    }
+}
+
+.statsIcon {
+    &::before {
+        content: '\e473';
+    }
+}
+
+.spadeIcon {
+    &::before {
+        content: '\f2f4';
+    }
+}
+
+.sparkleIcon {
+    &::before {
+        content: '\f890';
+    }
+}

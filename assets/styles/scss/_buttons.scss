@@ -1,0 +1,33 @@
+button {
+    align-items: center;
+    border: 2px solid transparent;
+    border-radius: .25rem;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    font-weight: 500;
+    gap: .5rem;
+    justify-content: center;
+    padding: 1rem 1.5rem;
+
+    &.smallButton {
+        font-size: .875rem;
+        gap: .25rem;
+        padding: .5rem 1rem;
+    }
+}
+
+.primaryButton {
+    background-color: var(--primaryGreen);
+    color: var(--offWhite);
+}
+
+.secondaryButton {
+    background-color: transparent;
+    border: 2px solid var(--primaryGreen);
+    color: var(--primaryGreen);
+}
+
+.tertiaryButton {
+    background-color: var(--primaryGreenDarken);
+    color: var(--offWhite);
+}
