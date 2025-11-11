@@ -384,12 +384,12 @@ header .currentChipTotal .chipIcon::before {
   background-color: var(--primaryGreenDarken);
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   html {
     background-color: var(--primaryGreenDarken75);
   }
   body {
-    max-width: 1024px;
+    max-width: 768px;
     margin: 0 auto;
   }
   .playerActions {
