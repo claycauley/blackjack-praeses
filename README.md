@@ -1,8 +1,8 @@
 # blackjack-praeses
 Blackjack Mockup for Praeses
 
-### Design Decisions 
-# Layout
+# Design Decisions 
+### Layout
 I designed this interface with this particular layout because it places some of the most important information up at the top and makes it easy to see. Some people who may stumble upon this webapp might have never played Blackjack before, so having a "Rules" button that is persistent could help someone easily figure out the game. Or if there are special rules associated with this version of BJ, having a place where those are clearly outlined would cause less frustration for the user.
 
 It's also using the accented secondary golden color because it contains your current chip count. Color association between gold and wealth or money played a role in this choice.
@@ -17,7 +17,7 @@ In the "action" section, you have the top two options for Hit and Stand front an
 
 Finally the Quick Tips section was just an added bonus to fill in some space with randomly populated tips for players to potentially help them learn the game or better their skills.
 
-# Color Choice
+### Color Choice
 When choosing colors for this interface, I instantly knew I needed a green. Green is very commonly associated with money, but it's also the color of the felt that covers blackjack tables. To accent the shades of green, I went with gold, which is also commonly thought of with wealth and finance. Green and gold pair well together anyway, but when considering the subject matter, it makes even more sense. A game about money using colors often associated with money/wealth was easy enough to decide on, but what about one more accent color? Another pop of something more?
 
 Red. Not an overpowering red, but a dusty, muted red. The diamond and heart suit icon was already going to need some shade of red, so I searched for one that complemented the gold AND the green but also played nice with my text combinations. Not the easiest thing to do with a red.
